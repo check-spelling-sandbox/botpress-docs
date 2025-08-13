@@ -545,7 +545,7 @@
             },
             "put": {
                 "operationId": "updateMessage",
-                "description": "Updates a message tags and payload. The message type can't be changed. Calling this operation from an integration, to update an incoming message, will not invoke the bot. The other way around it also true; Calling this operation from the bot, to update an outgoing message, will not invoke the integration.",
+                "description": "Updates a message tags and payload. The message type can't be changed. Calling this operation from an integration, to update an incoming message, won't invoke the bot. The other way around it also true; Calling this operation from the bot, to update an outgoing message, won't invoke the integration.",
                 "parameters": [
                     {
                         "name": "id",
