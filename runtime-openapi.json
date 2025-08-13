@@ -190,7 +190,7 @@
         "/v1/chat/conversations/get-or-create": {
             "post": {
                 "operationId": "getOrCreateConversation",
-                "description": "Retrieves the [Conversation](#schema_conversation) object for a valid identifier. If the conversation does not exist, it will be created.",
+                "description": "Retrieves the [Conversation](#schema_conversation) object for a valid identifier. If the conversation doesn't exist, it will be created.",
                 "parameters": [],
                 "responses": {
                     "200": {
@@ -504,7 +504,7 @@
         "/v1/chat/messages/get-or-create": {
             "post": {
                 "operationId": "getOrCreateMessage",
-                "description": "Retrieves the [Message](#schema_message) object for a valid identifier. If the message does not exist, it will be created.",
+                "description": "Retrieves the [Message](#schema_message) object for a valid identifier. If the message doesn't exist, it will be created.",
                 "parameters": [],
                 "responses": {
                     "200": {
@@ -729,7 +729,7 @@
         "/v1/chat/users/get-or-create": {
             "post": {
                 "operationId": "getOrCreateUser",
-                "description": "Retrieves the [User](#schema_user) object for a valid identifier. If the user does not exist, it will be created.",
+                "description": "Retrieves the [User](#schema_user) object for a valid identifier. If the user doesn't exist, it will be created.",
                 "parameters": [],
                 "responses": {
                     "200": {
@@ -956,7 +956,7 @@
         "/v1/chat/states/{type}/{id}/{name}/get-or-set": {
             "post": {
                 "operationId": "getOrSetState",
-                "description": "Retrieves the [State](#schema_state) object for a valid identifiers. If the state does not exist, it creates a new state.",
+                "description": "Retrieves the [State](#schema_state) object for a valid identifiers. If the state doesn't exist, it creates a new state.",
                 "parameters": [
                     {
                         "name": "type",
