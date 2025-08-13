@@ -1897,7 +1897,7 @@
                                 "index": {
                                     "default": false,
                                     "type": "boolean",
-                                    "description": "Set to a value of 'true' to index the file in vector storage. Only certain file formats are currently supported for indexing. Files larger than 95 MB cannot be indexed. Note that if a file is indexed, it will count towards both the Vector DB Storage quota and the File Storage quota of the workspace."
+                                    "description": "Set to a value of 'true' to index the file in vector storage. Only certain file formats are currently supported for indexing. Files larger than 95 MB can't be indexed. Note that if a file is indexed, it will count towards both the Vector DB Storage quota and the File Storage quota of the workspace."
                                 },
                                 "indexing": {
                                     "type": "object",
@@ -1985,7 +1985,7 @@
                                                     "enum": [
                                                         "realtime-v1"
                                                     ],
-                                                    "description": "Internal setting, cannot be set manually."
+                                                    "description": "Internal setting, can't be set manually."
                                                 },
                                                 "vision": {
                                                     "type": "object",
@@ -2022,7 +2022,7 @@
                                 },
                                 "contentType": {
                                     "type": "string",
-                                    "description": "File content type. If omitted, the content type will be inferred from the file extension (if any) specified in `key`. If a content type cannot be inferred, the default is \"application/octet-stream\"."
+                                    "description": "File content type. If omitted, the content type will be inferred from the file extension (if any) specified in `key`. If a content type can't be inferred, the default is \"application/octet-stream\"."
                                 },
                                 "expiresAt": {
                                     "type": "string",

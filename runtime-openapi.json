@@ -165,7 +165,7 @@
             },
             "delete": {
                 "operationId": "deleteConversation",
-                "description": "Permanently deletes a [Conversation](#schema_conversation). It cannot be undone. Also immediately deletes corresponding [Messages](#schema_message).",
+                "description": "Permanently deletes a [Conversation](#schema_conversation). It can't be undone. Also immediately deletes corresponding [Messages](#schema_message).",
                 "parameters": [
                     {
                         "name": "id",
@@ -545,7 +545,7 @@
             },
             "put": {
                 "operationId": "updateMessage",
-                "description": "Updates a message tags and payload. The message type cannot be changed. Calling this operation from an integration, to update an incoming message, will not invoke the bot. The other way around it also true; Calling this operation from the bot, to update an outgoing message, will not invoke the integration.",
+                "description": "Updates a message tags and payload. The message type can't be changed. Calling this operation from an integration, to update an incoming message, will not invoke the bot. The other way around it also true; Calling this operation from the bot, to update an outgoing message, will not invoke the integration.",
                 "parameters": [
                     {
                         "name": "id",
@@ -571,7 +571,7 @@
             },
             "delete": {
                 "operationId": "deleteMessage",
-                "description": "Permanently deletes a [Message](#schema_message). It cannot be undone.",
+                "description": "Permanently deletes a [Message](#schema_message). It can't be undone.",
                 "parameters": [
                     {
                         "name": "id",
@@ -704,7 +704,7 @@
             },
             "delete": {
                 "operationId": "deleteUser",
-                "description": "Permanently deletes a [User](#schema_user). It cannot be undone.",
+                "description": "Permanently deletes a [User](#schema_user). It can't be undone.",
                 "parameters": [
                     {
                         "name": "id",
@@ -1095,7 +1095,7 @@
             },
             "delete": {
                 "operationId": "deleteTask",
-                "description": "Permanently deletes a [Task](#schema_task). It cannot be undone.",
+                "description": "Permanently deletes a [Task](#schema_task). It can't be undone.",
                 "parameters": [
                     {
                         "name": "id",
@@ -1377,7 +1377,7 @@
             },
             "delete": {
                 "operationId": "deleteWorkflow",
-                "description": "Permanently deletes a [Workflow](#schema_workflow). It cannot be undone.",
+                "description": "Permanently deletes a [Workflow](#schema_workflow). It can't be undone.",
                 "parameters": [
                     {
                         "name": "id",
@@ -1609,7 +1609,7 @@
                                 },
                                 "public": {
                                     "type": "boolean",
-                                    "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                                    "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                                 },
                                 "verificationStatus": {
                                     "type": "string",
@@ -2619,7 +2619,7 @@
                     },
                     "public": {
                         "type": "boolean",
-                        "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                        "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                     },
                     "verificationStatus": {
                         "type": "string",

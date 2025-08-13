@@ -109,7 +109,7 @@
       },
       "delete": {
         "operationId": "deleteConversation",
-        "description": "Permanently deletes a [Conversation](#schema_conversation). It cannot be undone. Also immediately deletes corresponding [Messages](#schema_message).",
+        "description": "Permanently deletes a [Conversation](#schema_conversation). It can't be undone. Also immediately deletes corresponding [Messages](#schema_message).",
         "parameters": [
           {
             "name": "x-user-key",
@@ -1788,7 +1788,7 @@
       },
       "delete": {
         "operationId": "deleteMessage",
-        "description": "Permanently deletes a [Message](#schema_message). It cannot be undone.",
+        "description": "Permanently deletes a [Message](#schema_message). It can't be undone.",
         "parameters": [
           {
             "name": "x-user-key",
@@ -2622,7 +2622,7 @@
       },
       "delete": {
         "operationId": "deleteUser",
-        "description": "Permanently deletes a [User](#schema_user). It cannot be undone.",
+        "description": "Permanently deletes a [User](#schema_user). It can't be undone.",
         "parameters": [
           {
             "name": "x-user-key",

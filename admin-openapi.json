@@ -2096,7 +2096,7 @@
                 },
                 "public": {
                   "type": "boolean",
-                  "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                  "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                 },
                 "verificationStatus": {
                   "type": "string",
@@ -2756,7 +2756,7 @@
           },
           "public": {
             "type": "boolean",
-            "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+            "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
           },
           "verificationStatus": {
             "type": "string",
@@ -4148,7 +4148,7 @@
                     "note": { "type": "string" },
                     "value": {
                       "type": "string",
-                      "description": "The PAT value. This will only be returned here when created and cannot be retrieved later."
+                      "description": "The PAT value. This will only be returned here when created and can't be retrieved later."
                     }
                   },
                   "required": ["id", "createdAt", "note", "value"],
@@ -4246,7 +4246,7 @@
                       },
                       "public": {
                         "type": "boolean",
-                        "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                        "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                       },
                       "verificationStatus": {
                         "type": "string",
@@ -4759,7 +4759,7 @@
                     },
                     "public": {
                       "type": "boolean",
-                      "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                      "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                     },
                     "verificationStatus": {
                       "type": "string",
@@ -5255,7 +5255,7 @@
                     },
                     "public": {
                       "type": "boolean",
-                      "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                      "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                     },
                     "verificationStatus": {
                       "type": "string",
@@ -6722,7 +6722,7 @@
                 "note": { "type": "string" },
                 "value": {
                   "type": "string",
-                  "description": "The IAK value. This will only be returned here when created and cannot be retrieved later."
+                  "description": "The IAK value. This will only be returned here when created and can't be retrieved later."
                 }
               },
               "required": ["id", "createdAt", "note", "value"],
@@ -6843,7 +6843,7 @@
                       },
                       "public": {
                         "type": "boolean",
-                        "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                        "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                       },
                       "verificationStatus": {
                         "type": "string",
@@ -8486,7 +8486,7 @@
                 },
                 "public": {
                   "type": "boolean",
-                  "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                  "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                 },
                 "layers": { "type": "array", "items": { "type": "string" } }
               },
@@ -8853,7 +8853,7 @@
                 },
                 "public": {
                   "type": "boolean",
-                  "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                  "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                 },
                 "layers": { "type": "array", "items": { "type": "string" } }
               },
@@ -9224,7 +9224,7 @@
                 "url": { "type": "string", "description": "URL of the integration", "nullable": true },
                 "public": {
                   "type": "boolean",
-                  "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                  "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                 },
                 "layers": { "type": "array", "items": { "type": "string" } }
               },
@@ -9594,7 +9594,7 @@
                 "url": { "type": "string", "description": "URL of the integration", "nullable": true },
                 "public": {
                   "type": "boolean",
-                  "description": "Indicates whether the integration is public. Public integrations are available to all and cannot be updated without creating a new version."
+                  "description": "Indicates whether the integration is public. Public integrations are available to all and can't be updated without creating a new version."
                 },
                 "layers": { "type": "array", "items": { "type": "string" } }
               },
