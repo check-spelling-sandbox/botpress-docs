@@ -584,7 +584,7 @@
     "/v1/admin/bots/{botId}/integrations/{integrationId}/shareable-id": {
       "post": {
         "operationId": "createIntegrationShareableId",
-        "description": "(Experimental) Generate a shareable ID for an integration installed in a bot. This ID is meant to identify the crossover of a bot and an integration version, just like the webhook ID, but in a human-readable format. It is used for the integrations channel sandbox feature.",
+        "description": "(Experimental) Generate a shareable ID for an integration installed in a bot. This ID is meant to identify the crossover of a bot and an integration version, just like the webhook ID, but in a human-readable format. It's used for the integrations channel sandbox feature.",
         "parameters": [
           { "name": "botId", "in": "path", "description": "Bot ID", "required": true, "schema": { "type": "string" } },
           {
@@ -603,7 +603,7 @@
       },
       "delete": {
         "operationId": "deleteIntegrationShareableId",
-        "description": "(Experimental) Delete a shareable ID for an integration installed in a bot. This ID is meant to identify the crossover of a bot and an integration version, just like the webhook ID, but in a human-readable format. It is used for the integrations channel sandbox feature.",
+        "description": "(Experimental) Delete a shareable ID for an integration installed in a bot. This ID is meant to identify the crossover of a bot and an integration version, just like the webhook ID, but in a human-readable format. It's used for the integrations channel sandbox feature.",
         "parameters": [
           { "name": "botId", "in": "path", "description": "Bot ID", "required": true, "schema": { "type": "string" } },
           {
@@ -621,7 +621,7 @@
       },
       "get": {
         "operationId": "getIntegrationShareableId",
-        "description": "(Experimental) Get an existing shareable ID for an integration installed in a bot. This ID is meant to identify the crossover of a bot and an integration version, just like the webhook ID, but in a human-readable format. It is used for the integrations channel sandbox feature.",
+        "description": "(Experimental) Get an existing shareable ID for an integration installed in a bot. This ID is meant to identify the crossover of a bot and an integration version, just like the webhook ID, but in a human-readable format. It's used for the integrations channel sandbox feature.",
         "parameters": [
           { "name": "botId", "in": "path", "description": "Bot ID", "required": true, "schema": { "type": "string" } },
           {
@@ -2205,7 +2205,7 @@
                 "expiry": {
                   "type": "number",
                   "minimum": 1,
-                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                 }
               },
               "required": ["type", "schema"],
@@ -2967,7 +2967,7 @@
                 "expiry": {
                   "type": "number",
                   "minimum": 1,
-                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                 }
               },
               "required": ["type", "schema"],
@@ -3199,9 +3199,9 @@
         "properties": {
           "id": {
             "type": "string",
-            "description": "ID of the usage that it is linked to. It can either be a workspace id or a bot id"
+            "description": "ID of the usage that it's linked to. It can either be a workspace id or a bot id"
           },
-          "period": { "type": "string", "description": "Period of the quota that it is applied to" },
+          "period": { "type": "string", "description": "Period of the quota that it's applied to" },
           "value": { "type": "number", "description": "Value of the current usage" },
           "quota": { "type": "number", "description": "Quota of the current usage" },
           "type": {
@@ -6236,7 +6236,7 @@
                 "quota": {
                   "type": "object",
                   "properties": {
-                    "period": { "type": "string", "description": "Period of the quota that it is applied to" },
+                    "period": { "type": "string", "description": "Period of the quota that it's applied to" },
                     "value": { "type": "number", "description": "Value of the quota that is used" },
                     "type": {
                       "type": "string",
@@ -6281,7 +6281,7 @@
                   "items": {
                     "type": "object",
                     "properties": {
-                      "period": { "type": "string", "description": "Period of the quota that it is applied to" },
+                      "period": { "type": "string", "description": "Period of the quota that it's applied to" },
                       "value": { "type": "number", "description": "Value of the quota that is used" },
                       "type": {
                         "type": "string",
@@ -7533,7 +7533,7 @@
                       "expiry": {
                         "type": "number",
                         "minimum": 1,
-                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                       }
                     },
                     "required": ["type", "schema"],
@@ -7873,7 +7873,7 @@
                       "expiry": {
                         "type": "number",
                         "minimum": 1,
-                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                       }
                     },
                     "required": ["type", "schema"],
@@ -9894,7 +9894,7 @@
                       "expiry": {
                         "type": "number",
                         "minimum": 1,
-                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                       }
                     },
                     "required": ["type", "schema"],
@@ -10087,7 +10087,7 @@
                       "expiry": {
                         "type": "number",
                         "minimum": 1,
-                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                        "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                       }
                     },
                     "required": ["type", "schema"],

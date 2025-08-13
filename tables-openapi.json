@@ -456,7 +456,7 @@
     "/v1/tables/{table}/rows/upsert": {
       "post": {
         "operationId": "upsertTableRows",
-        "description": "Inserts or updates rows based on a key. If a row exists, it is updated; otherwise, a new row is created.",
+        "description": "Inserts or updates rows based on a key. If a row exists, it's updated; otherwise, a new row is created.",
         "parameters": [
           {
             "name": "table",
@@ -757,7 +757,7 @@
                 "expiry": {
                   "type": "number",
                   "minimum": 1,
-                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                 }
               },
               "required": [
@@ -1954,7 +1954,7 @@
                 "expiry": {
                   "type": "number",
                   "minimum": 1,
-                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it is idle for the configured value. By default, a state doesn't expire."
+                  "description": "Expiry of the [State](#schema_state) in milliseconds. The state will expire if it's idle for the configured value. By default, a state doesn't expire."
                 }
               },
               "required": [
@@ -2383,11 +2383,11 @@
         "properties": {
           "id": {
             "type": "string",
-            "description": "ID of the usage that it is linked to. It can either be a workspace id or a bot id"
+            "description": "ID of the usage that it's linked to. It can either be a workspace id or a bot id"
           },
           "period": {
             "type": "string",
-            "description": "Period of the quota that it is applied to"
+            "description": "Period of the quota that it's applied to"
           },
           "value": {
             "type": "number",
@@ -4538,7 +4538,7 @@
                 "orderBy": {
                   "default": "id",
                   "type": "string",
-                  "description": "Specifies the column by which to order the results. By default it is ordered by id. Build-in columns: id, createdAt, updatedAt"
+                  "description": "Specifies the column by which to order the results. By default it's ordered by id. Build-in columns: id, createdAt, updatedAt"
                 },
                 "orderDirection": {
                   "default": "asc",
