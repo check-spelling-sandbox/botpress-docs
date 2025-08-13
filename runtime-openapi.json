@@ -4143,7 +4143,7 @@
                     },
                     "frozen": {
                         "type": "boolean",
-                        "description": "A table designated as \"frozen\" is immutable in terms of its name and schema structure; modifications to its schema or a renaming operation are not permitted. The only action that can be taken on such a table is deletion. The schema established at the time of creation is locked in as the final structure. To implement any changes, the table must be duplicated with the desired alterations."
+                        "description": "A table designated as \"frozen\" is immutable in terms of its name and schema structure; modifications to its schema or a renaming operation aren't permitted. The only action that can be taken on such a table is deletion. The schema established at the time of creation is locked in as the final structure. To implement any changes, the table must be duplicated with the desired alterations."
                     },
                     "schema": {
                         "type": "object",
@@ -5713,7 +5713,7 @@
                                         "type": "string",
                                         "maxLength": 500
                                     },
-                                    "description": "Optional list of tag names to use for strict matching when looking up existing conversations. If provided, all specified tags must match exactly for a conversation to be considered a match. For example, with an existing conversation whose tags are {\"foo\": \"a\", \"bar\": \"b\", baz: \"c\"}: Without this parameter, ALL tags must match exactly. With [\"bar\",\"baz\"], all listed tags must match their values, and other tags are not considered."
+                                    "description": "Optional list of tag names to use for strict matching when looking up existing conversations. If provided, all specified tags must match exactly for a conversation to be considered a match. For example, with an existing conversation whose tags are {\"foo\": \"a\", \"bar\": \"b\", baz: \"c\"}: Without this parameter, ALL tags must match exactly. With [\"bar\",\"baz\"], all listed tags must match their values, and other tags aren't considered."
                                 }
                             },
                             "required": [
@@ -5964,7 +5964,7 @@
                                         "type": "string",
                                         "maxLength": 500
                                     },
-                                    "description": "Optional list of tag names to use for strict matching when looking up existing messages. If provided, all specified tags must match exactly for a message to be considered a match. For example, with an existing message whose tags are {\"foo\": \"a\", \"bar\": \"b\", baz: \"c\"}: Without this parameter, ALL tags must match exactly. With [\"bar\",\"baz\"], all listed tags must match their values, and other tags are not considered."
+                                    "description": "Optional list of tag names to use for strict matching when looking up existing messages. If provided, all specified tags must match exactly for a message to be considered a match. For example, with an existing message whose tags are {\"foo\": \"a\", \"bar\": \"b\", baz: \"c\"}: Without this parameter, ALL tags must match exactly. With [\"bar\",\"baz\"], all listed tags must match their values, and other tags aren't considered."
                                 }
                             },
                             "required": [
@@ -6087,7 +6087,7 @@
                                         "type": "string",
                                         "maxLength": 500
                                     },
-                                    "description": "Optional list of tag names to use for strict matching when looking up existing users. If provided, all specified tags must match exactly for a user to be considered a match. For example, with an existing user whose tags are {\"foo\": \"a\", \"bar\": \"b\", baz: \"c\"}: Without this parameter, ALL tags must match exactly. With [\"bar\",\"baz\"], all listed tags must match their values, and other tags are not considered."
+                                    "description": "Optional list of tag names to use for strict matching when looking up existing users. If provided, all specified tags must match exactly for a user to be considered a match. For example, with an existing user whose tags are {\"foo\": \"a\", \"bar\": \"b\", baz: \"c\"}: Without this parameter, ALL tags must match exactly. With [\"bar\",\"baz\"], all listed tags must match their values, and other tags aren't considered."
                                 }
                             },
                             "required": [

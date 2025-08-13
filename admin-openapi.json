@@ -3742,7 +3742,7 @@
           },
           "frozen": {
             "type": "boolean",
-            "description": "A table designated as \"frozen\" is immutable in terms of its name and schema structure; modifications to its schema or a renaming operation are not permitted. The only action that can be taken on such a table is deletion. The schema established at the time of creation is locked in as the final structure. To implement any changes, the table must be duplicated with the desired alterations."
+            "description": "A table designated as \"frozen\" is immutable in terms of its name and schema structure; modifications to its schema or a renaming operation aren't permitted. The only action that can be taken on such a table is deletion. The schema established at the time of creation is locked in as the final structure. To implement any changes, the table must be duplicated with the desired alterations."
           },
           "schema": {
             "type": "object",
