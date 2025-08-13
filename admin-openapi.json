@@ -6237,7 +6237,7 @@
                   "type": "object",
                   "properties": {
                     "period": { "type": "string", "description": "Period of the quota that it's applied to" },
-                    "value": { "type": "number", "description": "Value of the quota that is used" },
+                    "value": { "type": "number", "description": "Value of the quota that's used" },
                     "type": {
                       "type": "string",
                       "enum": [
@@ -6282,7 +6282,7 @@
                     "type": "object",
                     "properties": {
                       "period": { "type": "string", "description": "Period of the quota that it's applied to" },
-                      "value": { "type": "number", "description": "Value of the quota that is used" },
+                      "value": { "type": "number", "description": "Value of the quota that's used" },
                       "type": {
                         "type": "string",
                         "enum": [
